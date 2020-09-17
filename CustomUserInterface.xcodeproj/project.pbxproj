@@ -12,6 +12,7 @@
 		1A9076A72511B25E006ACB72 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A9076A62511B25E006ACB72 /* ViewController.swift */; };
 		1A9076AC2511B25F006ACB72 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A9076AB2511B25F006ACB72 /* Assets.xcassets */; };
 		1A9076AF2511B25F006ACB72 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A9076AD2511B25F006ACB72 /* LaunchScreen.storyboard */; };
+		5D30110D2512F1F0005E5572 /* SingleLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D30110C2512F1F0005E5572 /* SingleLine.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		1A9076AB2511B25F006ACB72 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1A9076AE2511B25F006ACB72 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1A9076B02511B25F006ACB72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D30110C2512F1F0005E5572 /* SingleLine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleLine.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		1A9076A12511B25E006ACB72 /* CustomUserInterface */ = {
 			isa = PBXGroup;
 			children = (
+				5D30110B2512EF5B005E5572 /* Drawing */,
 				1A9076A22511B25E006ACB72 /* AppDelegate.swift */,
 				1A9076A42511B25E006ACB72 /* SceneDelegate.swift */,
 				1A9076A62511B25E006ACB72 /* ViewController.swift */,
@@ -62,6 +65,14 @@
 				1A9076B02511B25F006ACB72 /* Info.plist */,
 			);
 			path = CustomUserInterface;
+			sourceTree = "<group>";
+		};
+		5D30110B2512EF5B005E5572 /* Drawing */ = {
+			isa = PBXGroup;
+			children = (
+				5D30110C2512F1F0005E5572 /* SingleLine.swift */,
+			);
+			path = Drawing;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,6 +146,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1A9076A72511B25E006ACB72 /* ViewController.swift in Sources */,
+				5D30110D2512F1F0005E5572 /* SingleLine.swift in Sources */,
 				1A9076A32511B25E006ACB72 /* AppDelegate.swift in Sources */,
 				1A9076A52511B25E006ACB72 /* SceneDelegate.swift in Sources */,
 			);
@@ -274,7 +286,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7G4A2JWWKQ;
-				INFOPLIST_FILE = CustomAnimations/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/CustomUserInterface/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -292,7 +304,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7G4A2JWWKQ;
-				INFOPLIST_FILE = CustomAnimations/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/CustomUserInterface/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
