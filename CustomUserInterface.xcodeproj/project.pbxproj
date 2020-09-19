@@ -10,6 +10,8 @@
 		1A0B35B02515346600BB76D2 /* CurveLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0B35AF2515346600BB76D2 /* CurveLine.swift */; };
 		1A0B35B325153A3000BB76D2 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0B35B225153A3000BB76D2 /* Extensions.swift */; };
 		1A0B35BA2515B20900BB76D2 /* Circle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0B35B92515B20900BB76D2 /* Circle.swift */; };
+		1A0B35BD2515B77000BB76D2 /* Rectangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0B35BC2515B77000BB76D2 /* Rectangle.swift */; };
+		1A0B35C02515B80400BB76D2 /* Gradients.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0B35BF2515B80400BB76D2 /* Gradients.swift */; };
 		1A9076A32511B25E006ACB72 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A9076A22511B25E006ACB72 /* AppDelegate.swift */; };
 		1A9076A52511B25E006ACB72 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A9076A42511B25E006ACB72 /* SceneDelegate.swift */; };
 		1A9076A72511B25E006ACB72 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A9076A62511B25E006ACB72 /* ViewController.swift */; };
@@ -22,6 +24,8 @@
 		1A0B35AF2515346600BB76D2 /* CurveLine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurveLine.swift; sourceTree = "<group>"; };
 		1A0B35B225153A3000BB76D2 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		1A0B35B92515B20900BB76D2 /* Circle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Circle.swift; sourceTree = "<group>"; };
+		1A0B35BC2515B77000BB76D2 /* Rectangle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rectangle.swift; sourceTree = "<group>"; };
+		1A0B35BF2515B80400BB76D2 /* Gradients.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gradients.swift; sourceTree = "<group>"; };
 		1A90769F2511B25E006ACB72 /* CustomUserInterface.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomUserInterface.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A9076A22511B25E006ACB72 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1A9076A42511B25E006ACB72 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -96,6 +100,8 @@
 				5D30110C2512F1F0005E5572 /* SingleLine.swift */,
 				1A0B35AF2515346600BB76D2 /* CurveLine.swift */,
 				1A0B35B92515B20900BB76D2 /* Circle.swift */,
+				1A0B35BC2515B77000BB76D2 /* Rectangle.swift */,
+				1A0B35BF2515B80400BB76D2 /* Gradients.swift */,
 			);
 			path = Drawing;
 			sourceTree = "<group>";
@@ -172,11 +178,13 @@
 			files = (
 				1A0B35BA2515B20900BB76D2 /* Circle.swift in Sources */,
 				1A9076A72511B25E006ACB72 /* ViewController.swift in Sources */,
+				1A0B35C02515B80400BB76D2 /* Gradients.swift in Sources */,
 				1A0B35B325153A3000BB76D2 /* Extensions.swift in Sources */,
 				5D30110D2512F1F0005E5572 /* SingleLine.swift in Sources */,
 				1A9076A32511B25E006ACB72 /* AppDelegate.swift in Sources */,
 				1A9076A52511B25E006ACB72 /* SceneDelegate.swift in Sources */,
 				1A0B35B02515346600BB76D2 /* CurveLine.swift in Sources */,
+				1A0B35BD2515B77000BB76D2 /* Rectangle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
