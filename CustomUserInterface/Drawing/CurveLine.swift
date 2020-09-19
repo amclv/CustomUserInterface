@@ -20,7 +20,6 @@ class CurveLine: UIView {
     
     required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
-        backgroundColor = UIColor.clear
     }
     
     override func draw(_ rect: CGRect) {

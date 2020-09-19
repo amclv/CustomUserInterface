@@ -12,6 +12,7 @@ class ViewController: UIViewController {
     
     let singleLine = SingleLine()
     let curveLine = CurveLine()
+    let circlePath = Circle()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -21,7 +22,8 @@ class ViewController: UIViewController {
     
     func configureUI() {
 //        showSingleLine()
-        showCurveLine()
+//        showCurveLine()
+        showCirclePath()
     }
     
     private func showSingleLine() {
@@ -32,6 +34,11 @@ class ViewController: UIViewController {
     private func showCurveLine() {
         view.addSubview(curveLine)
         curveLine.addConstraintsToFillView(view)
+    }
+    
+    private func showCirclePath() {
+        view.addSubview(circlePath)
+        circlePath.addConstraintsToFillView(view)
     }
 }
 

@@ -1,3 +1,5 @@
 # CustomUserInterface
 Practice custom drawing and animations.
-- Single line path
+- Single Line Path
+- Curve Line Path
+- Circle Path
