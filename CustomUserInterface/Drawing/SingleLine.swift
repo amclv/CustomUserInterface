@@ -23,14 +23,11 @@ class SingleLine: UIView {
     }
     
     override func draw(_ rect: CGRect) {
-        graph()
-    }
-    
-    func graph() {
+        UIColor.red.setStroke()
+        line.lineWidth = 5
+        
         line.move(to: CGPoint(x: 0, y: bounds.height / 2))
         line.addLine(to: .init(x: bounds.width, y: bounds.height / 2))
-        UIColor.red.setStroke()
-        line.lineWidth = 2
         line.stroke()
     }
 }

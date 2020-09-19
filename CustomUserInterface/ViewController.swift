@@ -11,6 +11,7 @@ import UIKit
 class ViewController: UIViewController {
     
     let singleLine = SingleLine()
+    let curveLine = CurveLine()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -18,17 +19,19 @@ class ViewController: UIViewController {
         configureUI()
     }
     
-    private func configureUI() {
-        singleLine.translatesAutoresizingMaskIntoConstraints = false
-        
-        view.addSubview(singleLine)
-        NSLayoutConstraint.activate([
-            singleLine.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor),
-            singleLine.leadingAnchor.constraint(equalTo: view.leadingAnchor),
-            singleLine.trailingAnchor.constraint(equalTo: view.trailingAnchor),
-            singleLine.bottomAnchor.constraint(equalTo: view.safeAreaLayoutGuide.bottomAnchor)
-        ])
+    func configureUI() {
+//        showSingleLine()
+        showCurveLine()
     }
     
+    private func showSingleLine() {
+        view.addSubview(singleLine)
+        singleLine.addConstraintsToFillView(view)
+    }
+    
+    private func showCurveLine() {
+        view.addSubview(curveLine)
+        curveLine.addConstraintsToFillView(view)
+    }
 }
 
